@@ -1,0 +1,326 @@
+﻿<table>
+  <situation index="0" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="1" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="2" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="3" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="4" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="5" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="6" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="7" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="8" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="9" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="10" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="11" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="12" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="13" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="14" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="15" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="16" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="17" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="18" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="19" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="20" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="21" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="22" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="23" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="24" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="25" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="26" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="27" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="28" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="29" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="30" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="31" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="32" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="33" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="34" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="35" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="36" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="37" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="38" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="39" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="40" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="41" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="0" valueName="Low" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="42" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="43" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="44" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="45" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="46" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="47" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="1" valueName="Medium" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="48" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="49" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="50" action1="DirectAttack">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="0" valueName="In the open" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+  <situation index="51" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="0" valueName="Low" />
+  </situation>
+  <situation index="52" action1="GenerateHP">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="1" valueName="Medium" />
+  </situation>
+  <situation index="53" action1="AttackFromAbove">
+    <attribute name="PlayerHealth" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerAmmo" subdivisions="3" value="2" valueName="High" />
+    <attribute name="PlayerCover" subdivisions="2" value="1" valueName="In cover" />
+    <attribute name="EnemyHealth" subdivisions="3" value="2" valueName="High" />
+  </situation>
+</table>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TableXMLSchema"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!-- root element, called "table" -->
+  <xs:element name="table" type="tableType"/>
+  
+  <xs:complexType name="tableType">
+    <xs:sequence>
+      <xs:element name="situation" type="situationType"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="situationType">
+    <xs:sequence>
+      <xs:element name="attribute" type="attributeType" minOccurs="1" maxOccurs="unbounded">
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="index" type="xs:string" use="required"/>
+    <xs:attribute name="action" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="attributeType">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="subdivisions" type="xs:integer" use="required"/>
+    <xs:attribute name="value" type="xs:integer" use="required"/>
+    <xs:attribute name="valueName" type="xs:string" use="required"/>
+  </xs:complexType>
+  
+</xs:schema>
